@@ -1,0 +1,270 @@
+@font-face{
+    font-family:gotham;
+    src: url(Gotham\ Book\ Font.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family:
+}
+
+body{
+    background-color: #a3c9d8;
+}
+
+h1{
+    height: 360px;
+    width: auto;
+    background-image: url(MULTIMEDIA/BANNERS/BANNERS\ -\ GRUPO\ ZILAR-03.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    height: 100%;
+    width: auto;
+    text-align: center;
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+    font-family: gotham;
+    font-style: oblique;
+    
+    
+    
+}
+
+
+#barradenavegacion{
+    background-image: url(MULTIMEDIA/BANNERS/nav\ \(1\).jpg);
+}
+
+.nav{ 
+height: 100%;
+width: 370px;
+padding: 30px;
+margin: auto;
+font-family: gotham;
+color: rgb(6, 8, 10);
+display: inline-block;
+text-decoration: none;
+}
+
+.nav:hover{
+    color :white;
+}
+
+
+
+.contenedor{
+    width: 55%;
+    height: auto;
+    background-color: #a3c9d8;
+    justify-content:center;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas: "img1 img2 img3"
+                        "img1 img2 img3"
+                        "img1 img2 img3";
+    padding: 100px;
+    grid-gap: 20px;}
+
+    .item{
+        border: 2px solid black;
+        background-size: cover;
+        background-position: center;
+        border-radius: 7px;
+        filter: grayscale(0%);
+    }
+
+    .item:hover{
+        filter: grayscale(100%);
+        transition: all 0.9s;
+    }
+
+    .item1{
+        background-image: url(imgcanva/story\ para\ instagram\ tu\ casa\ perfecta\ azul\ marino.jpg);
+        grid-area: img1;
+        
+    }
+    
+    .item2{
+        background-image: url(imgcanva/ventas\ \(1\).png);
+        grid-area: img2;
+    }
+    
+    .item3{
+        background-image: url(imgcanva/Tu\ historia\ asesoramiento\ jurídico\ abogado\ sobrio\ gris.png);
+        grid-area: img3;
+    }
+    
+
+.rentas{
+    color:black;
+    background-color: #04779d;
+    border-style:groove;
+    border-color:#009696;
+    border-radius: 10px;
+    font-family: gotham;
+    text-align: center;
+}
+
+.rentasd{
+    font-family:gotham;
+}
+
+#nosotros{
+    font-family: gotham;
+    text-align: center;
+
+    
+    
+    
+}
+
+.divredes{
+    width: 100%;
+    height: auto;
+    font-family: gotham;
+    background-color: #255092;
+    padding:auto;
+    margin: auto;
+
+}
+
+.icons{
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: green;
+    padding: 15px;
+    box-shadow: 0 0 5px #fff;
+    color: #fff;
+}
+
+section{
+    height: 350px;
+    width: 100%;
+    background-color: #1a95d0;
+    display: flex;
+}
+
+.sec-left{
+    background-image: url(MULTIMEDIA/img/chairs-2181947_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 65%;
+}
+
+.articulo{
+    width: 35%;
+    padding: 20px;
+
+}
+
+#formu{
+    text-align: center;
+    display: ;
+}
+
+
+.articulo h2{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.articulo p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.articulo a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(84, 110, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 
+}
+
+
+
+
+
+.articulo a:hover{
+    background-color: #000000;
+}
+
+
+.sec-2{
+    background-image: url(imgcanva/Sin\ título.png);
+}
+
+.sec-3{
+    background-image: url(MULTIMEDIA/img/house-6967908_1280.jpg);
+}
+
+.what{
+    background-color: rgb(95, 150, 13);
+    height: 60px;
+    width: 60px;
+    padding: auto;
+    font-size: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0 0 5px black;
+    border: 3px solid white;
+}
+
+.what:visited{
+    color:white;
+}
+.what:link{
+    color: white;
+    
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    text-align: center;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .social-icon i {
+    transition: color 0.3s;
+  }
+  
+  .social-icon i:hover {
+    color: #04779d; 
+  }
+  
+  .copyright {
+    text-align: center;
+  }
