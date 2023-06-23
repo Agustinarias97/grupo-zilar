@@ -9,8 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
-    font-family:
-}
+    }
 
 body{
     background-color: #a3c9d8;
@@ -175,7 +174,6 @@ section{
 
 #formu{
     text-align: center;
-    display: ;
 }
 
 
@@ -195,7 +193,6 @@ section{
     color: white;
     background-color: rgb(84, 110, 214);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 
 }
 
 
