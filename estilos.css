@@ -1,6 +1,6 @@
 @font-face{
     font-family:gotham;
-    src: url(Gotham\ Book\ Font.otf);
+    src: url(MULTIMEDIA/FUENTES/Gotham\ Book\ Font.otf);
 }
 
 
@@ -87,18 +87,18 @@ text-decoration: none;
     }
 
     .item1{
-        background-image: url(imgcanva/story\ para\ instagram\ tu\ casa\ perfecta\ azul\ marino.jpg);
+        background-image: url(MULTIMEDIA/imgcanva/story\ para\ instagram\ tu\ casa\ perfecta\ azul\ marino.jpg);
         grid-area: img1;
         
     }
     
     .item2{
-        background-image: url(imgcanva/ventas\ \(1\).png);
+        background-image: url(MULTIMEDIA/imgcanva/ventas\ \(1\).png);
         grid-area: img2;
     }
     
     .item3{
-        background-image: url(imgcanva/Tu\ historia\ asesoramiento\ jurídico\ abogado\ sobrio\ gris.png);
+        background-image: url(MULTIMEDIA/imgcanva/Tu\ historia\ asesoramiento\ jurídico\ abogado\ sobrio\ gris.png);
         grid-area: img3;
     }
     
@@ -208,7 +208,7 @@ section{
 
 
 .sec-2{
-    background-image: url(imgcanva/Sin\ título.png);
+    background-image: url(MULTIMEDIA/imgcanva/mapa.jpg);
 }
 
 .sec-3{
